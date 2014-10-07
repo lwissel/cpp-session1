@@ -8,4 +8,15 @@ int main() {
 	
 	// ad 2, bad example of \n
 	cout << "When in trouble or in doubt\nrun in circles,\nscream and shout.\n";
+	
+	// ad 3
+	string name;
+	cin >> name;
+	cout << "Hello " << name << endl;
+	
+	// ad 4
+	cout << "***************" << endl;
+	cout << "** LUNCHTIME **" << endl;
+	cout << "***************" << endl;
+
 }
