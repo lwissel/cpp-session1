@@ -3,12 +3,12 @@
 #include <cmath>
 using namespace std;
 
-bool test (int a, int b, int c, int d) {
+bool test (long long int a, long long int b, long long int c, long long int d) {
 	return ( (1000*a+100*b+10*c+d) == (int)(pow(a,b)*pow(c,d)) );
 }
 
 int main () {
-	int a,b,c,d;
+	long long int a,b,c,d;
 	
 	for(d = 0; d < 10; d++) {
 		for(c = 0; c < 10; c++) {
